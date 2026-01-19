@@ -15,10 +15,9 @@ This project generates a daily standup update from GitHub commits and posts it t
 
 ---
 
-## Required IDs
-
-From the **Merge Agent Handler dashboard**, you will need:
-
+## Required Keys & IDs
+- **OpenAI API key**
+- **Merge Agent Handler API Key**
 - **Tool Pack ID**
 - **Registered User ID**
 - Slack + GitHub connected to the tool pack
