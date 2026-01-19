@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ### Set Environment Variables
 ```bash
 export OPENAI_API_KEY="your-openai-api-key"
-export MERGE_API_KEY="your-merge-api-key"
+export AGENT_HANDLER_API_KEY="your-merge-api-key"
 ```
 ### Run the Project
 ```bash
