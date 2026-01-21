@@ -61,4 +61,3 @@ export AGENT_HANDLER_API_KEY="your-merge-api-key"
 ```bash
 python standup_demo.py
 ```
-
