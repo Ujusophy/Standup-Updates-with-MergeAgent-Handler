@@ -17,9 +17,11 @@ agent = Agent(
 )
 
 yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+repo = "Ujusophy/Standup-Updates-with-MergeAgent-Handler"
+slack_channel = "daily-standup"
 
 task = Task(
-    description="Write a standup update from {yesterday} githb commit and post a summary of the message to the #daily-standup channel.",
+    description=f"Write a standup update from {yesterday} github commit of repo {repo} and post a summary of the message to the {slack_channel} channel.",
     agent=agent,
     expected_output="Standup commit update in the format: Yesterday, Today, Blockers and confirmation that the message was posted to slack"
 )
